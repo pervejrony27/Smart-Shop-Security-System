@@ -35,8 +35,7 @@ When the system is **ARMED** (e.g., when the shop is closed), it monitors the vi
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone the Repository
-```bash
+1. Clone the Repository
 git clone https://github.com/pervejrony27/Smart-Shop-Security-System.git
 cd Smart-Shop-Security-System
 2. Install Dependencies
