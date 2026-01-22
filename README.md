@@ -62,8 +62,8 @@ EMAIL_PASS=your_app_password
 # Twilio SMS Settings
 TWILIO_SID=ACxxxxxxxxxxxxxxxx
 TWILIO_TOKEN=your_auth_token
-TWILIO_FROM=+123456789
-TWILIO_TO=+1987654321
+TWILIO_FROM=+8000000000
+TWILIO_TO=+80000000000
 
 # Flask Security
 SECRET_KEY=supersecretkey123
