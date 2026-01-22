@@ -34,9 +34,10 @@ When the system is **ARMED** (e.g., when the shop is closed), it monitors the vi
 *   **Frontend:** HTML5, CSS3, JavaScript (jQuery)
 
 ## ⚙️ Installation & Setup
+```bash
 
-1. Clone the Repository
-git clone https://github.com/pervejrony27/Smart-Shop-Security-System.git
+ 1. Clone the Repository
+git clone https://github.com/YOUR_USERNAME/Smart-Shop-Security-System.git
 cd Smart-Shop-Security-System
 2. Install Dependencies
 Bash
@@ -70,7 +71,7 @@ SECRET_KEY=supersecretkey123
 Bash
 
 python app.py
-Access the dashboard at: http://127.0.0.1:500
+Access the dashboard at: http://127.0.0.1:5000
 
 📸 Usage Workflow
 Login to the system using secure credentials.
