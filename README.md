@@ -37,3 +37,9 @@ When the system is **ARMED** (e.g., when the shop is closed), it monitors the vi
 ```bash
 git clone https://github.com/pervejrony27/Smart-Shop-Security-System.git
 cd Smart-Shop-Security-System
+
+Due to GitHub file size limits, the AI model weights are not included in this repo.
+
+Download the file (237 MB) from here: https://pjreddie.com/media/files/yolov3.weights
+Place the file inside the root folder of this project.
+Ensure your folder contains: yolov3.weights, yolov3.cfg, and coco.names.
