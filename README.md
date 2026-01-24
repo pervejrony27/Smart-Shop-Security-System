@@ -10,7 +10,7 @@ A comprehensive, computer-vision-based security solution designed for after-hour
 
 ## 📖 Overview
 
-Traditional security cameras are passive—they record crimes but don't stop them. This project builds a **Proactive Security System** that acts as a virtual guard.
+Traditional security cameras are passive,they record crimes but don't stop them. This project builds a **Proactive Security System** that acts as a virtual guard.
 
 When the system is **ARMED** (e.g., when the shop is closed), it monitors the video feed for human presence. If an intruder is detected, the system locks the evidence and triggers a dual-alert mechanism to ensure the owner is notified immediately, regardless of where they are.
 
