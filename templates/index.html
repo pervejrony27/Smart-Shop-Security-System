@@ -90,7 +90,6 @@
     <h2>Incident History</h2>
     <p style="text-align:center; color:#777;">Displaying all images saved to storage.</p>
     <div id="imageGallery" class="gallery-container">
-        <!-- Images will be injected here via JavaScript -->
     </div>
 </div>
 
@@ -107,13 +106,7 @@
                 statusBox.removeClass("armed").addClass("disarmed").text("System Status: DISARMED (Live View Only)");
             }
 
-            // --- Update Image Gallery ---
-            // We assume data.all_incidents is an array of objects: [{url: '...', timestamp: '...'}, ...]
-            // Or simply a list of filenames.
             
-            // To prevent flickering, we only rebuild if the count changes, 
-            // or you can implement a more complex ID check. 
-            // For simplicity, we clear and append here (or you can use React/Vue for better state management).
             
             if (data.all_incidents && data.all_incidents.length > 0) {
                 gallery.empty(); // Clear current list
